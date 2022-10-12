@@ -1,0 +1,7 @@
+var ball = document.querySelector("#ball");
+var left = 10;
+draw = function() {
+    fill(0, 0, 0);
+    stroke(60,0,200);
+    ellipse(100, 100, 10, 10);
+};
